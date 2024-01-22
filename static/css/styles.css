@@ -1,0 +1,190 @@
+/* General Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; /* Adjust the max-width as needed */
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.container-box2 {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px;
+}
+.container-box2 ul{
+font-size: 15px;
+}
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form and Input Styles */
+form {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Button Styles */
+input[type="submit"],
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box; /* To include padding in width */
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Link Styles */
+a {
+    color: #5cb85c;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Error Message Style */
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.icon-box {
+  padding: 30px;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.icon-box::before {
+  content: "";
+  position: absolute;
+  background: #d9f1f2;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.icon-box:hover::before {
+  background: #5cb85c;
+  top: 0;
+  border-radius: 0px;
+}
+.logoimg{
+width:33%;
+}
+.mybtn{
+color:white;
+}
+.icon {
+  margin-bottom: 15px;
+}
+
+.icon i {
+  font-size: 48px;
+  line-height: 1;
+  color: #5cb85c;
+  transition: all 0.3s ease-in-out;
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.title a {
+  color: #111;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.icon-box:hover .title a,
+.icon-box:hover .description,
+ .icon-box:hover .test-now{
+  color: #fff;
+}
+
+.icon-box:hover .icon i {
+  color: #fff;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #5cb85c;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
