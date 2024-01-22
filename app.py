@@ -97,6 +97,14 @@ def handle_answer():
 
     conn.close()
     session['selected_level'] = selected_level
+    if session['selected_level'] == 1:
+        return redirect(url_for('game1'))
+    elif session['selected_level'] == 2:
+        return redirect(url_for('game2'))
+    elif session['selected_level'] == 3:
+        return redirect(url_for('game3'))
+    elif session['selected_level'] == 4:
+        return redirect(url_for('game4'))
     return redirect(url_for('index'))
 
 def get_correct_answer(level):
