@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
+        <div class="myposition  mt-4 mr-3">
+            <!-- Logout and Dashboard buttons with smaller width -->
+            <button class="btn btn-danger btn-sm mr-3 mb-2"><a class="mybtn" href="{{ url_for('dashboard') }}">Dashboard</a></button>
+            <button class="btn btn-danger btn-sm mr-3"><a class="mybtn" href="{{ url_for('logout') }}">Logout</a></button>
+        </div>
     <div class="container-box">
 
             <a href="{{ url_for('bgame') }}" class="d-block mx-auto text-center">
@@ -31,8 +36,8 @@
             <br>
             <button type="submit">Submit Answer</button>
         </form>
-        <button class="mt-3"><a class="mybtn" href="/dashboard">Go to Dashboard</a></button>
-        <button class="mt-3"> <a class="mybtn" href="/logout">Logout</a></button>
+<!--        <button class="mt-3"><a class="mybtn" href="/dashboard">Go to Dashboard</a></button>-->
+<!--        <button class="mt-3"> <a class="mybtn" href="/logout">Logout</a></button>-->
         <!-- Your game content goes here -->   
     </div>
     <script>

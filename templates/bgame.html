@@ -12,6 +12,11 @@
 </head>
 <body>
     <div class="container mt-5">
+        <div class="myposition  mt-4 mr-3">
+            <!-- Logout and Dashboard buttons with smaller width -->
+            <button class="btn btn-danger btn-sm mr-3 mb-2"><a class="mybtn" href="{{ url_for('dashboard') }}">Dashboard</a></button>
+            <button class="btn btn-danger btn-sm mr-3"><a class="mybtn" href="{{ url_for('logout') }}">Logout</a></button>
+        </div>
                                     <a href="{{ url_for('bgame') }}" class="d-block mx-auto text-center">
                 <img src="../static/logoimg.png" class="img-fluid logoimg2">
             </a>
