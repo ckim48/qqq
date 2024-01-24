@@ -19,8 +19,8 @@
             <a href="{{ url_for('bgame') }}" class="d-block mx-auto text-center">
                 <img src="../static/logoimg.png" class="img-fluid logoimg">
             </a>
-            <h2 class="text-center">Welcome, {{ username }}!</h2>
-<h4 class="text-center">Overall Result</h4>
+<!--            <h2 class="text-center">Welcome, {{ username }}!</h2>-->
+<h4 class="text-center">{{ username }}'s Result</h4>
             <div class="row d-flex justify-content-center align-items-center">
 
 
@@ -44,7 +44,7 @@
                     </ul>
                 </div>
 
-        <button class="mt-4 mb-3" type ="button" href="{{url_for('/logout')}}>Logout</button>
+        <a href="{{url_for('logout')}}"><button class="mt-4 mb-3" type ="button" >Logout</button></a>
         </div>
     </div>
 </div>
