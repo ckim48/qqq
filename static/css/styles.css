@@ -117,6 +117,8 @@ a {
   top: 0;
   border-radius: 0px;
 }
+.smallp{
+font-size:14px;}
 .logoimg{
 width:48%;
 margin-bottom: 15px;
@@ -191,4 +193,12 @@ color:white;
 
 .section-title p {
   margin-bottom: 0;
+}
+
+input[type="radio"] {
+    margin-right: 6px;
+}
+
+input[type="text"] {
+    margin-right: 6px;
 }

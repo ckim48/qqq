@@ -14,7 +14,8 @@
     <a href="{{ url_for('bgame') }}" class="d-block mx-auto text-center">
         <img src="../static/logoimg.png" class="img-fluid logoimg">
     </a>
-        <h2>Welcome, {{ username }}!</h2>
+        <h2>LEVEL 1</h2>
+        <p class="smallp">** There are questions with TWO possible answers. You may choose either one.</p>
         <form method="post" action="{{ url_for('handle_answer') }}" id="question-form">
             <br>
             <!-- Display the question dynamically based on the selected level -->
