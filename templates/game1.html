@@ -12,8 +12,8 @@
 <body>
         <div class="myposition  mt-4 mr-3">
             <!-- Logout and Dashboard buttons with smaller width -->
-            <button class="btn btn-danger btn-sm mr-3 mb-2"><a class="mybtn" href="{{ url_for('dashboard') }}">Dashboard</a></button>
-            <button class="btn btn-danger btn-sm mr-3"><a class="mybtn" href="{{ url_for('logout') }}">Logout</a></button>
+            <a class="mybtn" href="{{ url_for('dashboard') }}"><button class="btn btn-danger btn-sm mr-3 mb-2">Dashboard</button></a>
+           <a class="mybtn" href="{{ url_for('logout') }}"> <button class="btn btn-danger btn-sm mr-3">Logout</button></a>
         </div>
     <div class="container-box">
     <a href="{{ url_for('bgame') }}" class="d-block mx-auto text-center">
