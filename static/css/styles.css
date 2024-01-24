@@ -118,7 +118,11 @@ a {
   border-radius: 0px;
 }
 .logoimg{
-width:33%;
+width:48%;
+margin-bottom: 15px;
+}
+.logoimg2{
+width:29%;
 }
 .mybtn{
 color:white;
