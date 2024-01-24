@@ -61,7 +61,7 @@ def game4():
 @app.route('/bgame')
 def bgame():
     if 'username' in session:
-        return render_template('bgame.html')
+        return render_template('bgame.html', username=session["username"])
     return redirect(url_for('login'), username=session["username"])
 @app.route('/handle_answer', methods=['POST'])
 def handle_answer():
