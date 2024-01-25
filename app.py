@@ -255,6 +255,8 @@ def verify_user(username, password):
     conn.close()
     return user is not None
 
+# How long have you been learning Korean?
+# Which part do you find most difficult while learning Korean? (Speaking, Listening, Reading, Writing, Grammar 중 선택할 수 있도록, 이중선택 가능하게)
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
     if request.method == 'POST':
