@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-        <div class="myposition  mt-4 mr-3">
+        <div class="myposition  mt-md-4 d-block">
             <!-- Logout and Dashboard buttons with smaller width -->
-                                    <a class="mybtn" href="{{ url_for('bgame') }}"><button class="btn btn-danger btn-sm mr-3 mb-2">Go Home</button></a>
+            <a class="mybtn btn btn-danger2 danger-2 btn-sm mb-2 d-block mr-3 mr-md-0" href="{{ url_for('bgame') }}">Go Home</a>
+            <a class="mybtn btn btn-danger2 danger-2 btn-sm mb-2 d-block mr-3 mr-md-0" href="{{ url_for('dashboard') }}">Dashboard</a>
+           <a class="mybtn btn btn-danger2 danger-2 btn-sm mb-5 d-block mr-3 mr-md-0" href="{{ url_for('logout') }}"> Logout</a>
 
-            <a class="mybtn" href="{{ url_for('dashboard') }}"><button class="btn btn-danger btn-sm mr-3 mb-2">Dashboard</button></a>
-           <a class="mybtn" href="{{ url_for('logout') }}"> <button class="btn btn-danger btn-sm mr-3">Logout</button></a>
         </div>
     <div class="container-box">
 
