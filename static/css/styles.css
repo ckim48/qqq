@@ -205,15 +205,29 @@ input[type="text"] {
     margin-right: 6px;
 }
 .myposition{
-position:absolute;
-top:0;
-right:0;
-margin-top: 15px;
+    position:absolute;
+    top:0;
+    right:0;
+    margin-top: 15px;
     margin-right: 15px; /* Adjust the value as needed */
 
 }
 
+.btn-danger2{
+
+border-radius:50px;
+padding: 3px 29px !important;
+background-color:#5cb85c !important;
+border: 1px solid #5cb85c !important;
+}
+.btn-danger2:hover{
+background-color:#1E9435 !important;
+
+border: 1px solid #1E9435  !important;
+}
+
 .btn-danger{
+
 border-radius:50px;
 padding: 2px 3px 2px 3px !important;
 background-color:#5cb85c !important;
@@ -228,9 +242,12 @@ border: 1px solid #1E9435  !important;
 .mycontainer{
 margin-top: 940px !important;
 }
-    .btn-danger{
-    width:80%
+.btn-danger2{
+
+padding: 3px 20px !important;
+
 }
+
 .myposition{
 position:absolute;
 top:0;
